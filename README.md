@@ -1,88 +1,90 @@
 <div align="center">
 
-<img src="./docs/logo.png" alt="Munder Difflin — agent harness to run an office of your clones" width="180">
+[English](./README.en.md) · **Русский**
+
+<img src="./docs/logo.png" alt="Munder Difflin — агентный харнесс для офиса из ваших клонов" width="180">
 
 # Munder Difflin
 
-### Agent harness to run an office of your clones
+### Агентный харнесс, который запускает офис из ваших клонов
 
 <p>
-  <a href="https://trendshift.io/repositories/46562" target="_blank" rel="noopener noreferrer"><img alt="GitHub Trending — #1 Repository of the Day" src="./docs/badge-github-trending.png" width="250" height="54"></a>
-  <a href="https://www.producthunt.com/products/munder-difflin?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-munder-difflin" target="_blank" rel="noopener noreferrer"><img alt="Munder Difflin — #5 Product of the Day on Product Hunt" src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1221363&theme=light&period=daily" width="250" height="54"></a>
+  <a href="https://trendshift.io/repositories/46562" target="_blank" rel="noopener noreferrer"><img alt="GitHub Trending — репозиторий дня №1" src="./docs/badge-github-trending.png" width="250" height="54"></a>
+  <a href="https://www.producthunt.com/products/munder-difflin?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-munder-difflin" target="_blank" rel="noopener noreferrer"><img alt="Munder Difflin — продукт дня №5 на Product Hunt" src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1221363&theme=light&period=daily" width="250" height="54"></a>
 </p>
 
-<img src="./docs/media/floor.png" alt="The Munder Difflin office floor: agents at desks working in parallel, with the Command Center and a live agent terminal on the right" width="1240">
+<img src="./docs/media/floor.png" alt="Офисный этаж Munder Difflin: агенты за столами работают параллельно, справа — Command Center и живой терминал агента" width="1240">
 
-**Free, open source and performant** — a multi-agent harness that works with the
-subscriptions you already pay for, on their hourly limits. It turns the terminal coding CLI
-you already run into a clone of you, one that keeps working while you're away and
-coordinates a whole office of agents on your own machine.
+**Бесплатно, с открытым исходным кодом и производительно** — мультиагентный харнесс, который
+работает с подписками, за которые вы уже платите, в рамках их почасовых лимитов. Он превращает
+терминальный CLI для программирования, который вы уже запускаете, в вашего клона, который
+продолжает работать, пока вас нет, и координирует целый офис агентов на вашей собственной машине.
 
-Wraps [Claude Code](https://claude.com/claude-code), Antigravity (Gemini), OpenAI Codex,
+Оборачивает [Claude Code](https://claude.com/claude-code), Antigravity (Gemini), OpenAI Codex,
 **xAI Grok**, **Kimi Code**, **Gemini CLI**, **Qwen**, **OpenCode**, **Crush**,
-**pi.dev**, **GitHub Copilot CLI**, and **Cursor** — with bring-your-own keys and local LLMs.
-Agents that message, route, and remember, coordinated by **your clone** (Michael) and
-visualized as avatars at work on a shared office floor.
+**pi.dev**, **GitHub Copilot CLI** и **Cursor** — со своими ключами и локальными LLM.
+Агенты, которые переписываются, маршрутизируют и помнят, под управлением **вашего клона** (Michael)
+и в виде аватаров, работающих на общем офисном этаже.
 
 <p>
   <em>Electron · React · TypeScript · Pixi.js · xterm.js · node-pty</em>
 </p>
 
 <p>
-  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
-  <a href="./CHANGELOG.md"><img alt="Version: 0.4.6" src="https://img.shields.io/badge/version-0.4.6-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
-  <a href="https://github.com/chaitanyagiri/munder-difflin/releases"><img alt="Downloads across all releases" src="https://img.shields.io/github/downloads/chaitanyagiri/munder-difflin/total?style=flat-square&label=downloads&color=F4D35E&labelColor=6E1423"></a>
-  <img alt="Status: pre-release" src="https://img.shields.io/badge/status-pre--release-F4F1EA.svg?style=flat-square&labelColor=6E1423">
-  <img alt="Platform: macOS | Windows | Linux" src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-F4F1EA.svg?style=flat-square&labelColor=6E1423">
-  <a href="./CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
-  <a href="https://munderdiffl.in/blog/"><img alt="Blog" src="https://img.shields.io/badge/blog-guides%20%26%20postmortems-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
+  <a href="./LICENSE"><img alt="Лицензия: MIT" src="https://img.shields.io/badge/license-MIT-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
+  <a href="./CHANGELOG.md"><img alt="Версия: 0.4.6" src="https://img.shields.io/badge/version-0.4.6-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
+  <a href="https://github.com/chaitanyagiri/munder-difflin/releases"><img alt="Загрузки по всем релизам" src="https://img.shields.io/github/downloads/chaitanyagiri/munder-difflin/total?style=flat-square&label=downloads&color=F4D35E&labelColor=6E1423"></a>
+  <img alt="Статус: pre-release" src="https://img.shields.io/badge/status-pre--release-F4F1EA.svg?style=flat-square&labelColor=6E1423">
+  <img alt="Платформа: macOS | Windows | Linux" src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-F4F1EA.svg?style=flat-square&labelColor=6E1423">
+  <a href="./CONTRIBUTING.md"><img alt="PR приветствуются" src="https://img.shields.io/badge/PRs-welcome-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
+  <a href="https://munderdiffl.in/blog/"><img alt="Блог" src="https://img.shields.io/badge/blog-guides%20%26%20postmortems-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
   <a href="https://discord.gg/SEDzP5ZPk5"><img alt="Discord" src="https://img.shields.io/badge/Discord-join%20the%20office-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
 </p>
 
 <br>
 
-<!-- Inline player renders on github.com (raw URL required; relative paths only link). -->
+<!-- Встроенный плеер отображается на github.com (нужен raw URL; относительные пути только ссылаются). -->
 <video src="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/hero.mp4" controls muted loop playsinline width="820">
-  <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/hero.mp4">▶ Watch the floor — Munder Difflin running a hive of Claude Code agents</a>
+  <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/hero.mp4">▶ Смотрите этаж — Munder Difflin запускает улей агентов Claude Code</a>
 </video>
 
 <br><br>
 
-**[⬇ Download for macOS, Windows or Linux](https://github.com/chaitanyagiri/munder-difflin/releases/latest)**
+**[⬇ Скачать для macOS, Windows или Linux](https://github.com/chaitanyagiri/munder-difflin/releases/latest)**
 
-<sub>macOS builds are signed and notarized. You do not need to build from source to use it.</sub>
+<sub>Сборки для macOS подписаны и нотаризованы. Чтобы пользоваться приложением, собирать его из исходников не нужно.</sub>
 
 </div>
 
 ---
 
 > [!NOTE]
-> **The world's best agents. The world's worst paper company.**
-> Munder Difflin takes the terminal-agent CLIs you already run — `claude`, `agy`, `codex`, `grok`,
-> `kimi`, `qwen`, `opencode`, `crush`, `pi`, and `copilot` — and turns them
-> into a self-coordinating team: each agent gets long-term memory, a mailbox, and a desk on a 2D
-> office floor — and **your clone** (Michael) routes work between them while you watch. He's the
-> boss of the floor; you're still the boss of him.
+> **Лучшие агенты в мире. Худшая бумажная компания в мире.**
+> Munder Difflin берёт терминальные агентные CLI, которые вы уже запускаете, — `claude`, `agy`, `codex`, `grok`,
+> `kimi`, `qwen`, `opencode`, `crush`, `pi` и `copilot` — и превращает их
+> в самоорганизующуюся команду: каждый агент получает долговременную память, почтовый ящик и стол на 2D
+> офисном этаже — а **ваш клон** (Michael) маршрутизирует работу между ними, пока вы наблюдаете. Он
+> начальник этажа; вы по-прежнему его начальник.
 
-## Contents
+## Содержание
 
-- [Supported agents](#supported-agents)
-- [What it is](#what-it-is)
-- [How it works](#how-it-works)
-- [Features](#features)
-- [Getting started](#getting-started)
-- [Architecture & project structure](./docs/ARCHITECTURE.md)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Telemetry](#telemetry)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Поддерживаемые агенты](#supported-agents)
+- [Что это](#what-it-is)
+- [Как это работает](#how-it-works)
+- [Возможности](#features)
+- [Начало работы](#getting-started)
+- [Архитектура и структура проекта](./docs/ARCHITECTURE.md)
+- [План развития](#roadmap)
+- [Участие в разработке](#contributing)
+- [Телеметрия](#telemetry)
+- [Лицензия](#license)
+- [Благодарности](#acknowledgements)
 
-## Supported agents
+## Поддерживаемые агенты
 
-**Bring the CLI you already pay for.** Every one of these runs as a real process in its own
-terminal, with your existing subscription and its hourly limits. If it runs in a terminal, it
-can run here.
+**Приносите CLI, за который вы уже платите.** Каждый из них запускается как настоящий процесс в
+собственном терминале, с вашей существующей подпиской и её почасовыми лимитами. Если он работает в
+терминале, он может работать и здесь.
 
 <p>
   <a href="https://docs.claude.com/en/docs/claude-code"><kbd>Claude Code</kbd></a>
@@ -97,28 +99,29 @@ can run here.
   <a href="https://pi.dev/docs/latest"><kbd>Pi</kbd></a>
   <a href="https://docs.github.com/copilot/concepts/agents/about-copilot-cli"><kbd>GitHub Copilot</kbd></a>
   <a href="https://cursor.com/docs/cli/install"><kbd>Cursor</kbd></a>
-  <kbd>+ any custom command</kbd>
+  <kbd>+ любая своя команда</kbd>
 </p>
 
-Plus **bring your own keys** and **local models** through Ollama, LM Studio or vLLM.
+Плюс **собственные ключи** и **локальные модели** через Ollama, LM Studio или vLLM.
 
-## What it is
+## Что это
 
-Munder Difflin is a desktop app that wraps **real terminal-agent CLIs** as fully-capable agents,
-wires them into a **hive mind**, and puts **your clone** in charge — Michael, the one agent *you*
-talk to in order to get things done. Under the hood it runs the **fastest memory layer in the
-world** so every agent remembers what it learns and recalls it instantly.
+Munder Difflin — десктопное приложение, которое оборачивает **настоящие терминальные агентные CLI** как
+полноценных агентов, связывает их в **коллективный разум** и ставит во главе **вашего клона** — Michael,
+единственного агента, с которым *вы* говорите, чтобы добиваться результатов. Под капотом работает
+**самый быстрый в мире слой памяти**, так что каждый агент помнит то, что узнал, и мгновенно это
+вспоминает.
 
-- **Every terminal is an agent.** Each `claude`, `agy`, `codex`, `grok`, `kimi`, `qwen`, `opencode`, `crush`, `pi`, `copilot`, or custom session runs as a real
-  process in a pseudo-terminal (`node-pty`), byte-for-byte authentic, rendered with xterm.js.
-- **Every agent is an avatar.** Sessions appear as characters on a Pixi.js office floor — they walk
-  to stations as they work, and envelopes fly desk-to-desk when they message each other.
-- **The hive coordinates them.** Agents read their memory and drain a mailbox; the router moves
-  messages between inboxes; the GOD agent adjudicates, assigns, and escalates only when it needs you.
-- **Memory that's instant.** A markdown-first memory layer with a semantic recall index means agents
-  remember across sessions and recall in milliseconds.
+- **Каждый терминал — агент.** Каждая сессия `claude`, `agy`, `codex`, `grok`, `kimi`, `qwen`, `opencode`, `crush`, `pi`, `copilot` или своя собственная запускается как реальный
+  процесс в псевдотерминале (`node-pty`), байт в байт аутентичная, отрисовываемая через xterm.js.
+- **Каждый агент — аватар.** Сессии появляются как персонажи на офисном этаже Pixi.js — они ходят
+  к станциям по мере работы, а конверты летают от стола к столу, когда они переписываются.
+- **Улей координирует их.** Агенты читают свою память и разбирают почтовый ящик; маршрутизатор перемещает
+  сообщения между входящими; агент GOD выносит решения, назначает и эскалирует только тогда, когда нужен вы.
+- **Мгновенная память.** Слой памяти на основе markdown с индексом семантического поиска означает, что агенты
+  помнят между сессиями и вспоминают за миллисекунды.
 
-## How it works
+## Как это работает
 
 ```
             you ── talk to ──►  ┌─────────────┐
@@ -137,194 +140,194 @@ world** so every agent remembers what it learns and recalls it instantly.
               └──────── shared hive: memory · mailbox · blackboard · log ───────┘
 ```
 
-1. **You spawn agents** — each is a normal terminal process (`claude`, `agy`, `codex`, or custom)
-   with its own working directory, identity, and provider-specific lifecycle.
-2. **Agents collaborate through the hive** — a local git repo of plain files. They write to their own
-   `outbox/`; the harness's router delivers into recipients' `inbox/`. No agent ever touches git
-   (single-committer design avoids `index.lock` corruption).
-3. **The GOD agent runs the floor** — it reads every request, resolves routine ones itself (keeping
-   the system fully autonomous), and only escalates *critical* items (spend, destructive ops, scope
-   changes) into an approvals queue you act on.
-4. **Everything is visible** — you watch avatars move, envelopes fly, and the live terminal stream;
-   you can type back into any session, browse its files, and read its git history.
+1. **Вы запускаете агентов** — каждый из них обычный терминальный процесс (`claude`, `agy`, `codex` или свой)
+   со своим рабочим каталогом, идентичностью и жизненным циклом, специфичным для провайдера.
+2. **Агенты сотрудничают через улей** — локальный git-репозиторий из простых файлов. Они пишут в свой
+   `outbox/`; маршрутизатор харнесса доставляет в `inbox/` получателей. Ни один агент никогда не трогает git
+   (архитектура с единственным коммиттером избегает порчи `index.lock`).
+3. **Агент GOD управляет этажом** — он читает каждый запрос, сам разбирает рутинные из них (сохраняя
+   систему полностью автономной) и эскалирует только *критические* пункты (траты, деструктивные операции,
+   изменение рамок) в очередь одобрений, по которой действуете вы.
+4. **Всё видно** — вы наблюдаете, как двигаются аватары, летают конверты и идёт живой поток терминала;
+   вы можете печатать в любую сессию, просматривать её файлы и читать её историю git.
 
-See [`HIVE.md`](./HIVE.md) for the full multi-agent design, [`SPEC.md`](./SPEC.md) for the
-terminal/event plane, and [`DESIGN.md`](./DESIGN.md) for the visual system.
+Полный дизайн мультиагентной системы смотрите в [`HIVE.md`](./HIVE.md), терминальный/событийный уровень — в
+[`SPEC.md`](./SPEC.md), а визуальную систему — в [`DESIGN.md`](./DESIGN.md).
 
-## Features
+## Возможности
 
 <table>
 <tr>
 <td width="50%" valign="middle">
 
-### Talk to one agent, not twelve
+### Поговорите с одним агентом, а не с двенадцатью
 
-Michael is your clone and the only agent you brief. He assigns the work, routes the traffic, and
-escalates the few things that actually need you.
+Michael — ваш клон и единственный агент, которого вы инструктируете. Он распределяет работу, направляет
+трафик и эскалирует те немногие вещи, которые действительно требуют вас.
 
 </td>
 <td width="50%">
-  <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/demo/orchestrator.mp4"><img src="./docs/media/demo/orchestrator-poster.jpg" alt="Briefing Michael, the orchestrator agent, from the Command Center" width="100%"></a>
+  <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/demo/orchestrator.mp4"><img src="./docs/media/demo/orchestrator-poster.jpg" alt="Инструктируем Michael, агента-оркестратора, из Command Center" width="100%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="middle">
 
-### Hire an agent in a few clicks
+### Наймите агента в пару кликов
 
-Pick the CLI, the model and the autonomy, give it a desk, and it starts working. Import a
-ready made role from the [Agent Gallery](https://munderdiffl.in/hires/) if you would rather not
-start from scratch.
+Выберите CLI, модель и автономность, дайте ему стол — и он начнёт работать. Импортируйте готовую роль
+из [Agent Gallery](https://munderdiffl.in/hires/), если не хотите начинать с нуля.
 
 </td>
 <td width="50%">
-  <img src="./docs/screenshots/add-agent.png" alt="The add agent dialog: choosing a provider, model and role" width="100%">
+  <img src="./docs/screenshots/add-agent.png" alt="Диалог добавления агента: выбор провайдера, модели и роли" width="100%">
 </td>
 </tr>
 <tr>
 <td width="50%" valign="middle">
 
-### Memory that survives the session
+### Память, которая переживает сессию
 
-Every agent keeps markdown memory that is mined into a shared, searchable palace. Close the app,
-come back tomorrow, and they still know what they learned.
+Каждый агент хранит markdown-память, которая извлекается в общий дворец с поиском. Закройте приложение,
+вернитесь завтра — и они всё ещё знают то, что узнали.
 
 </td>
 <td width="50%">
-  <img src="./docs/screenshots/memory.png" alt="Searching the shared memory palace across every agent" width="100%">
+  <img src="./docs/screenshots/memory.png" alt="Поиск по общему дворцу памяти среди всех агентов" width="100%">
 </td>
 </tr>
 <tr>
 <td width="50%" valign="middle">
 
-### Autonomy with a leash
+### Автономность на поводке
 
-Set how far each agent may go on its own. Spend, scope and destructive operations come back to
-you, and a circuit breaker steers, constrains, then stops anything that loops or runs away.
+Настройте, как далеко каждый агент может зайти самостоятельно. Траты, рамки и деструктивные операции
+возвращаются к вам, а предохранитель сначала направляет, потом ограничивает и затем останавливает всё,
+что зацикливается или выходит из-под контроля.
 
 </td>
 <td width="50%">
-  <img src="./docs/screenshots/autonomy.png" alt="Per agent autonomy and approval settings" width="100%">
+  <img src="./docs/screenshots/autonomy.png" alt="Настройки автономности и одобрений для каждого агента" width="100%">
 </td>
 </tr>
 <tr>
 <td width="50%" valign="middle">
 
-### Watch the whole floor work
+### Наблюдайте за работой всего этажа
 
-Agents walk to stations as they work and envelopes fly desk to desk when they message each other.
-Click any desk to read that terminal live, and type straight back into it.
+Агенты идут к станциям по мере работы, а конверты летают от стола к столу, когда они переписываются.
+Нажмите на любой стол, чтобы читать тот терминал вживую и печатать прямо в него.
 
 </td>
 <td width="50%">
-  <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/demo/agents.mp4"><img src="./docs/media/demo/agents-poster.jpg" alt="Agents working in parallel on the office floor" width="100%"></a>
+  <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/demo/agents.mp4"><img src="./docs/media/demo/agents-poster.jpg" alt="Агенты работают параллельно на офисном этаже" width="100%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="middle">
 
-### Set up once
+### Настройка один раз
 
-The onboarding wizard checks what you already have, and offers to install what is missing rather
-than sending you to a docs page.
+Мастер первоначальной настройки проверяет, что у вас уже есть, и предлагает установить недостающее, вместо
+того чтобы отправлять вас на страницу с документацией.
 
 </td>
 <td width="50%">
-  <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/demo/setup.mp4"><img src="./docs/media/demo/setup-poster.jpg" alt="The first run setup wizard" width="100%"></a>
+  <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/demo/setup.mp4"><img src="./docs/media/demo/setup-poster.jpg" alt="Мастер настройки при первом запуске" width="100%"></a>
 </td>
 </tr>
 </table>
 
-**The floor**
-- **Every terminal is a real agent.** Claude Code, Antigravity (Gemini), OpenAI Codex, xAI Grok, Kimi Code, Gemini CLI, Qwen, OpenCode, Crush, pi.dev, GitHub Copilot CLI, Cursor, or a custom command — each in its own `node-pty` PTY, rendered with xterm.js.
-- **Every agent is an avatar.** A Pixi.js office floor where agents walk to stations, envelopes fly desk to desk, and avatar state reflects real work.
-- **A GOD orchestrator you talk to.** It routes tasks, adjudicates traffic, and escalates only what needs a human. Or press **Talk** and run the floor by voice.
-- **Per-agent git worktrees.** Optional isolation so parallel agents never collide on branches.
+**Этаж**
+- **Каждый терминал — настоящий агент.** Claude Code, Antigravity (Gemini), OpenAI Codex, xAI Grok, Kimi Code, Gemini CLI, Qwen, OpenCode, Crush, pi.dev, GitHub Copilot CLI, Cursor или своя команда — каждый в собственном PTY `node-pty`, отрисовываемом через xterm.js.
+- **Каждый агент — аватар.** Офисный этаж на Pixi.js, где агенты ходят к станциям, конверты летают от стола к столу, а состояние аватара отражает реальную работу.
+- **GOD-оркестратор, с которым вы говорите.** Он маршрутизирует задачи, разбирает трафик и эскалирует только то, что требует человека. Или нажмите **Talk** и управляйте этажом голосом.
+- **Отдельные git worktree для каждого агента.** Опциональная изоляция, чтобы параллельные агенты никогда не сталкивались на ветках.
 
-**Memory & coordination**
-- **The hive** — per-agent memory, atomic-file mailboxes, a shared blackboard, an append-only event log, single-committer git.
-- **Semantic recall** — markdown memory mined into a shared palace, searchable from the UI, with condensation so it doesn't grow forever.
-- **Enterprise Knowledge Graph** — your own documents and policies, queryable by any agent.
+**Память и координация**
+- **Улей** — память для каждого агента, почтовые ящики на атомарных файлах, общая доска, журнал событий только на добавление, git с единственным коммиттером.
+- **Семантический поиск** — markdown-память, извлекаемая в общий дворец, доступный для поиска из UI, со сжатием, чтобы она не росла бесконечно.
+- **Корпоративный граф знаний** — ваши собственные документы и политики, доступные для запросов любому агенту.
 
-**Control & safety**
-- **Human gates** — spend, scope, and destructive ops escalate to you. Steer mid-run or stop gracefully.
-- **Circuit breaker** — a steer → constrain → stop ladder for agents that loop, storm errors, or blow their budget.
-- **Budgets & telemetry** — per-agent token budgets, real cost from transcripts, a durable ledger, OTel spans, and a tool waterfall.
+**Управление и безопасность**
+- **Человеческие шлюзы** — траты, рамки и деструктивные операции эскалируются к вам. Управляйте на ходу или останавливайте мягко.
+- **Предохранитель** — лестница «направить → ограничить → остановить» для агентов, которые зацикливаются, штормят ошибками или выходят за бюджет.
+- **Бюджеты и телеметрия** — бюджеты токенов на каждого агента, реальная стоимость из транскриптов, долговечный гроссбух, спаны OTel и водопад вызовов инструментов.
 
 **Command Center**
-- Kanban tasks with dependencies, scheduled missions + heartbeat, live fleet monitoring, memory search, activity log, and a CI watcher.
-- **Skills** — what every agent can already do across Claude Code, OpenCode and Codex, plus a browsable catalog of 227 more with search, filters, install and uninstall.
-- **Built-in Monaco IDE** — file tree, editor tabs, save, plus CHANGES · HISTORY · COMPARE git rails with commit graph, diffs, branch compare, and guarded checkout. All fs/git access brokered through main.
+- Задачи в канбане с зависимостями, запланированные миссии + heartbeat, живой мониторинг парка, поиск по памяти, журнал активности и наблюдатель CI.
+- **Skills** — что каждый агент уже умеет в Claude Code, OpenCode и Codex, плюс каталог ещё 227 навыков с поиском, фильтрами, установкой и удалением.
+- **Встроенная Monaco IDE** — дерево файлов, вкладки редактора, сохранение, плюс git-панели CHANGES · HISTORY · COMPARE с графом коммитов, диффами, сравнением веток и защищённым checkout. Весь доступ к fs/git идёт через main.
 
-**Getting work in and out**
-- **Slack & webhooks** — message a channel or POST a webhook; Michael can spawn an ephemeral worker, reply in-thread, and tear it down.
-- **Shareable hires + Agent Gallery** — import a role from a `munderdifflin://hire` link; import only pre-fills the form, a human still spawns it. Browse roles at the [Agent Gallery](https://munderdiffl.in/hires/).
-- **BYOK keys + local LLMs** — per-provider keys in a write-only secret broker, plus Ollama / LM Studio / vLLM base URLs. Guides: [open models](https://munderdiffl.in/blog/run-munder-difflin-on-open-models/) · [Mac Mini](https://munderdiffl.in/blog/run-munder-difflin-on-a-mac-mini/).
-- **Updates in one click**: the title-bar badge runs the real update. It downloads the build for your machine, then restarts and installs it, and it reads `latest` once a check confirms you are current. A manual download is the fallback for when the updater cannot fetch the build itself. The first run afterwards opens that release's notes as a designed page rather than a version number.
-- **Your language**: English, Simplified Chinese and Arabic, with right to left layout for Arabic. English is the default and nothing changes until you pick another one in Settings. The app does not read your OS locale. All three app fonts ship inside the bundle, so nothing is fetched at boot.
-- **Prerequisites** — one Settings page showing which supporting tools (uv, git, Node, MemPalace, each agent CLI) you have, what each is for, and a button that asks Michael to install what is missing.
+**Как вводить и выводить работу**
+- **Slack и вебхуки** — напишите в канал или отправьте POST на вебхук; Michael может создать эфемерного воркера, ответить в ветке и снести его.
+- **Shareable hires + Agent Gallery** — импортируйте роль по ссылке `munderdifflin://hire`; импорт только заполняет форму, запускает агента всё равно человек. Смотрите роли в [Agent Gallery](https://munderdiffl.in/hires/).
+- **BYOK-ключи + локальные LLM** — ключи для каждого провайдера в брокере секретов только для записи, плюс базовые URL Ollama / LM Studio / vLLM. Руководства: [открытые модели](https://munderdiffl.in/blog/run-munder-difflin-on-open-models/) · [Mac Mini](https://munderdiffl.in/blog/run-munder-difflin-on-a-mac-mini/).
+- **Обновления в один клик**: значок в заголовке окна выполняет настоящее обновление. Он скачивает сборку для вашей машины, затем перезапускает и устанавливает её, а читает `latest` только когда проверка подтверждает, что вы на актуальной версии. Ручная загрузка — запасной вариант на случай, когда апдейтер не может сам получить сборку. Первый запуск после него открывает заметки к этому релизу как оформленную страницу, а не номер версии.
+- **Ваш язык**: английский, русский, упрощённый китайский и арабский, с раскладкой справа налево для арабского. Английский — по умолчанию, и ничего не меняется, пока вы не выберете другой язык в настройках. Приложение не читает локаль вашей ОС. Все три шрифта приложения поставляются внутри сборки, так что при запуске ничего не загружается извне.
+- **Требования** — одна страница настроек, показывающая, какие вспомогательные инструменты (uv, git, Node, MemPalace, каждый агентный CLI) у вас есть, для чего каждый из них и кнопка, которая просит Michael установить недостающее.
 
 > [!NOTE]
-> **Status: v0.4.6, the release where the app stops assuming everyone reads English left to right.**
-> The interface now runs in Simplified Chinese and Arabic, with right to left support. English
-> stays the default and nothing changes until you pick a language in Settings, under General; the
-> app never reads your operating system locale. All three app fonts now ship inside the bundle
-> instead of loading from Google, which is blocked in mainland China and was breaking the interface
-> for exactly the people the Chinese translation was for. An input method Enter no longer fires a
-> send, a search or a rename while a candidate word is still being composed.
-> Every string is translated, with nothing falling back to English, and the terminals read right to
-> left. Some screens still need their padding and icons mirrored, and that is the next piece of
-> work. No Arabic reader has reviewed the wording yet.
-> Also in this release: the update badge runs the real download and restart instead of handing you
-> a disk image, the update check can no longer spin forever, Settings persists through one Save
-> button, the model lists moved into a checked in catalog, and the ASK ME card renders markdown.
-> On the security side: the name of the CLI an agent launches is validated before it is resolved
-> against your PATH, the OS sandbox stays on in auto mode, and analytics stopped sending IP and
-> derived location. Telemetry now counts the messages you send to an agent, a count and nothing
-> else, with no text, length or hash of the body in any shape.
-> 16 community pull requests from 13 contributors landed in this release, one of them (#213)
-> re-implemented rather than merged.
-> **If you're on 0.3.8, update:** that build's usage-limit guard never released the agents it held,
-> and it has been removed entirely.
-> macOS (signed & notarized), Windows, and Linux builds are on the
-> [releases page](https://github.com/chaitanyagiri/munder-difflin/releases/latest).
+> **Статус: v0.4.6, релиз, в котором приложение перестаёт предполагать, что все читают английский слева направо.**
+> Интерфейс теперь работает на английском, русском, упрощённом китайском и арабском, с поддержкой письма
+> справа налево. Английский остаётся языком по умолчанию, и ничего не меняется, пока вы не выберете язык
+> в настройках, в разделе General; приложение никогда не читает локаль вашей операционной системы. Все
+> три шрифта приложения теперь поставляются внутри сборки вместо загрузки из Google, который заблокирован
+> в материковом Китае и ломал интерфейс именно у тех людей, для которых и делался китайский перевод.
+> Enter в методе ввода больше не запускает отправку, поиск или переименование, пока слово-кандидат ещё
+> составляется.
+> Каждая строка переведена, ничего не откатывается к английскому, а терминалы читаются справа налево.
+> Некоторым экранам всё ещё нужно зеркалирование отступов и иконок, и это следующая часть работы. Ни один
+> носитель арабского пока не вычитал формулировки.
+> Также в этом релизе: значок обновления запускает настоящую загрузку и перезапуск вместо выдачи вам
+> дискового образа, проверка обновлений больше не может крутиться вечно, настройки сохраняются одной кнопкой
+> Save, списки моделей переехали в каталог под контролем версий, а карточка ASK ME рендерит markdown.
+> По части безопасности: имя CLI, который запускает агент, проверяется до того, как оно разрешается по
+> вашему PATH, песочница ОС остаётся включённой в автоматическом режиме, а аналитика перестала отправлять IP
+> и производную геолокацию. Телеметрия теперь считает сообщения, которые вы отправляете агенту, — счётчик
+> и ничего больше, без текста, длины или хеша тела ни в каком виде.
+> 16 community pull request от 13 контрибьюторов вошли в этот релиз, один из них (#213) переписан заново, а
+> не слит.
+> **Если вы на 0.3.8, обновитесь:** в той сборке ограничитель лимита использования никогда не освобождал
+> удерживаемых агентов, и он полностью удалён.
+> Сборки для macOS (подписанные и нотаризованные), Windows и Linux — на
+> [странице релизов](https://github.com/chaitanyagiri/munder-difflin/releases/latest).
 
-<div align="right">(<a href="#munder-difflin">↑ back to top</a>)</div>
+<div align="right">(<a href="#munder-difflin">↑ наверх</a>)</div>
 
-## Getting started
+## Начало работы
 
-### Download the app
+### Скачать приложение
 
-**Most people want this one.** Signed and notarized macOS builds, plus Windows and Linux, are on
-the [latest release](https://github.com/chaitanyagiri/munder-difflin/releases/latest). Install it,
-open it, and the wizard takes you the rest of the way. You do not need Node, a toolchain, or this
-repository.
+**Большинству людей нужно именно это.** Подписанные и нотаризованные сборки для macOS, а также для Windows
+и Linux — на [последнем релизе](https://github.com/chaitanyagiri/munder-difflin/releases/latest). Установите
+его, откройте — и мастер проведёт вас через всё остальное. Вам не нужны Node, тулчейн или этот репозиторий.
 
-You do still need at least one agent CLI on your machine, and the app can install missing ones for
-you from **Settings → Prerequisites**.
+Но вам всё же нужен хотя бы один агентный CLI на вашей машине, и приложение может установить недостающие
+за вас из **Settings → Prerequisites**.
 
-### Build from source
+### Сборка из исходников
 
-Everything below is for contributors and for people who want to run an unreleased build.
+Всё ниже — для контрибьюторов и для тех, кто хочет запустить невыпущенную сборку.
 
-### Prerequisites
+### Требования
 
-- **macOS, Windows, or Linux**.
-- **Node.js 18+** and npm.
-- A **C/C++ toolchain** for `node-pty`'s native addon — on macOS, install Xcode Command Line Tools:
+- **macOS, Windows или Linux**.
+- **Node.js 18+** и npm.
+- **Тулчейн C/C++** для нативного аддона `node-pty` — на macOS установите Xcode Command Line Tools:
   ```bash
   xcode-select --install
   ```
-- At least one supported agent CLI on your `PATH` — **[Claude Code](https://claude.com/claude-code)**
-  (`claude`, the default), **Antigravity** (`agy`), **OpenAI Codex** (`codex`), **xAI Grok** (`grok`),
+- Хотя бы один поддерживаемый агентный CLI в вашем `PATH` — **[Claude Code](https://claude.com/claude-code)**
+  (`claude`, по умолчанию), **Antigravity** (`agy`), **OpenAI Codex** (`codex`), **xAI Grok** (`grok`),
   **Kimi Code** (`kimi`), **Gemini CLI** (`gemini`), **Qwen** (`qwen`), **OpenCode** (`opencode`),
-  **Crush** (`crush`), **pi.dev** (`pi`), **GitHub Copilot** (`copilot`), or **Cursor** (`cursor-agent`).
-  Most missing CLIs self-heal: the harness runs the installer in the
-  terminal and continues into the new binary.
-- *Optional:* **your own API keys and local LLMs** in **Settings → AI Engines** (Ollama / LM Studio / vLLM).
-- *Optional:* the semantic memory index for instant cross-session recall — markdown memory works without it.
+  **Crush** (`crush`), **pi.dev** (`pi`), **GitHub Copilot** (`copilot`) или **Cursor** (`cursor-agent`).
+  Большинство отсутствующих CLI самовосстанавливаются: харнесс запускает установщик в
+  терминале и продолжает работу с новым бинарником.
+- *Опционально:* **свои API-ключи и локальные LLM** в **Settings → AI Engines** (Ollama / LM Studio / vLLM).
+- *Опционально:* индекс семантической памяти для мгновенного вспоминания между сессиями — markdown-память работает и без него.
 
-### Install & run
+### Установка и запуск
 
 ```bash
 git clone https://github.com/chaitanyagiri/munder-difflin.git
@@ -333,10 +336,10 @@ npm install        # postinstall rebuilds node-pty against Electron's ABI
 npm run dev        # launches the Electron app with hot reload
 ```
 
-On first launch you'll go through the onboarding wizard, then land on the floor. Use **Add agent** to
-spawn your first session — the GOD agent seats itself in Michael's office automatically.
+При первом запуске вы пройдёте через мастер первоначальной настройки, а затем попадёте на этаж. Используйте **Add agent**,
+чтобы запустить первую сессию — агент GOD сам садится в офис Michael.
 
-### Other scripts
+### Другие скрипты
 
 ```bash
 npm run build      # production build via electron-vite
@@ -344,101 +347,102 @@ npm run preview    # preview the production build
 npm run typecheck  # type-check the node (main/preload) and web (renderer) projects
 ```
 
-> If `node-pty` fails to load after an Electron upgrade, re-run `npm install` (the `postinstall` hook
-> runs `electron-rebuild` against the current Electron ABI).
+> Если `node-pty` не загружается после обновления Electron, перезапустите `npm install` (хук `postinstall`
+> запускает `electron-rebuild` под текущий ABI Electron).
 
-## Architecture
+## Архитектура
 
-Two data planes feed one renderer: a **terminal plane** that owns the PTYs, the filesystem and git,
-and an **event plane** that runs the hive, the hook server and the router. The renderer talks to
-both only through a typed bridge.
+Один рендерер питают две плоскости данных: **терминальная плоскость**, которая владеет PTY, файловой
+системой и git, и **плоскость событий**, которая запускает улей, хук-сервер и маршрутизатор. Рендерер
+говорит с обеими только через типизированный мост.
 
-**The full diagrams, the module by module project structure, and the design system live in
-[`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md).** They moved out of this file so it can explain
-the product rather than the codebase. Also see [`HIVE.md`](./HIVE.md) for the multi-agent design,
-[`SPEC.md`](./SPEC.md) for the terminal and event plane, and [`DESIGN.md`](./DESIGN.md) for the
-visual system.
+**Полные диаграммы, структура проекта по модулям и дизайн-система живут в
+[`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md).** Они переехали из этого файла, чтобы он мог объяснять
+продукт, а не кодовую базу. Также смотрите [`HIVE.md`](./HIVE.md) для дизайна мультиагентной системы,
+[`SPEC.md`](./SPEC.md) для терминальной плоскости и плоскости событий и [`DESIGN.md`](./DESIGN.md) для
+визуальной системы.
 
-<div align="right">(<a href="#munder-difflin">↑ back to top</a>)</div>
+<div align="right">(<a href="#munder-difflin">↑ наверх</a>)</div>
 
-## Roadmap
+## План развития
 
-Shipped through **v0.4.6**: a Simplified Chinese and Arabic interface with right to left support
-and self-hosted fonts, twelve agent engines with BYOK keys and local LLMs, voice orchestration,
-the hive (memory · mailboxes · blackboard · event log), Command Center with kanban and weekday
-schedules, a built-in Monaco IDE with git rails, integrations registry + secret broker,
-Slack-spawned workers, shareable hires and the Agent Gallery, observability and the circuit
-breaker, durable persistence, session resume, multi-window floors, one click updates, a Skills
-browser, a live Prerequisites check, cost reporting folded from the ledger, semantic memory
-that works on Apple Silicon, and an updater that installs the build instead of pointing at it.
-Full history in [`CHANGELOG.md`](./CHANGELOG.md).
+Выпущено по **v0.4.6**: интерфейс на упрощённом китайском и арабском с поддержкой письма справа налево
+и собственными шрифтами, двенадцать агентных движков с BYOK-ключами и локальными LLM, голосовая
+оркестрация, улей (память · почтовые ящики · доска · журнал событий), Command Center с канбаном и
+расписаниями по дням недели, встроенная Monaco IDE с git-панелями, реестр интеграций + брокер секретов,
+воркеры, запускаемые из Slack, shareable hires и Agent Gallery, наблюдаемость и предохранитель,
+долговечная персистентность, возобновление сессий, многооконные этажи, обновления в один клик, браузер
+Skills, живая проверка Prerequisites, отчёт о стоимости, сведённый из гроссбуха, семантическая память,
+работающая на Apple Silicon, и апдейтер, который устанавливает сборку, а не указывает на неё.
+Полная история в [`CHANGELOG.md`](./CHANGELOG.md).
 
-Next up:
+Далее:
 
-- [ ] **More chat integrations** — Telegram and richer chat bridges that pipe a channel into Michael's queue and route replies back out.
-- [ ] **More engines & integration templates** — keep growing the engine roster and the integrations registry.
-- [ ] **Fuller avatar coverage** — drive the remaining station visits and tool-bubbles entirely from real hook events.
-- [ ] **Durable layout & command history** — extend persistence to agent layout and per-session history.
+- [ ] **Больше интеграций с чатами** — Telegram и более богатые чат-мосты, которые подключают канал к очереди Michael и маршрутизируют ответы обратно.
+- [ ] **Больше движков и шаблонов интеграций** — продолжаем расширять список движков и реестр интеграций.
+- [ ] **Более полное покрытие аватаров** — управлять оставшимися посещениями станций и пузырями инструментов полностью из реальных событий хуков.
+- [ ] **Долговечная раскладка и история команд** — расширить персистентность на раскладку агентов и историю отдельных сессий.
 
-<div align="right">(<a href="#munder-difflin">↑ back to top</a>)</div>
+<div align="right">(<a href="#munder-difflin">↑ наверх</a>)</div>
 
-## Contributing
+## Участие в разработке
 
-Contributions are welcome — this is pre-release software with a lot of surface area. Start with
-[`CONTRIBUTING.md`](./CONTRIBUTING.md). The short version: fork, `npm install && npm run dev`, keep
-`npm run typecheck` green, and **derive any new UI from [`DESIGN.md`](./DESIGN.md) tokens**. Good
-first areas: wiring real hook events, the add-agent flow, the config drawer, and cross-platform work.
+Вклад приветствуется — это предрелизное ПО с огромной площадью поверхности. Начните с
+[`CONTRIBUTING.md`](./CONTRIBUTING.md). Кратко: форкните, `npm install && npm run dev`, держите
+`npm run typecheck` зелёным и **выводите любой новый UI из токенов [`DESIGN.md`](./DESIGN.md)**. Хорошие
+первые задачи: подключение реальных событий хуков, поток добавления агента, панель конфигурации и
+кросс-платформенная работа.
 
 > [!IMPORTANT]
-> **Every pull request must show a before and an after** — screenshots, or a recording when the
-> thing moves — under the `### Before` and `### After` headings in the PR template. This is checked
-> automatically and a PR without it does not merge. "My change has no UI" is not an exemption; it
-> just changes what the evidence looks like. See
+> **Каждый pull request должен показывать «до» и «после»** — скриншоты или запись, когда что-то
+> движется — под заголовками `### Before` и `### After` в шаблоне PR. Это проверяется
+> автоматически, и PR без этого не сливается. «В моём изменении нет UI» — не освобождение; это просто
+> меняет то, как выглядят доказательства. Смотрите
 > [Evidence is mandatory](./CONTRIBUTING.md#evidence-is-mandatory).
 
-Questions, bugs, or want to show off your office? Join the Discord: **<https://discord.gg/SEDzP5ZPk5>**. Add your Discord handle to a PR and you'll get the `employee of the month` role when it merges.
+Вопросы, баги или хотите похвастаться своим офисом? Присоединяйтесь к Discord: **<https://discord.gg/SEDzP5ZPk5>**. Добавьте свой ник в Discord в PR, и при слиянии вы получите роль `employee of the month`.
 
-**Looking for somewhere to start?** The
+**Ищете, с чего начать?** Список
 [`good first issue`](https://github.com/chaitanyagiri/munder-difflin/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-list is kept stocked with small, self contained work that has a clear finish line.
+постоянно пополняется небольшой самостоятельной работой с чётким финишем.
 
-**Everyone whose code is in Munder Difflin is listed in [`CONTRIBUTORS.md`](./CONTRIBUTORS.md).**
-If that is you, it is yours to point at. The list is generated from the pull requests themselves and
-updates on its own, so you appear without having to ask. It also names the contributions that are in
-`main` but that GitHub shows as closed rather than merged, because that was our mistake to record
-and not theirs to explain.
+**Каждый, чей код есть в Munder Difflin, указан в [`CONTRIBUTORS.md`](./CONTRIBUTORS.md).**
+Если это вы, на это можно указывать. Список генерируется из самих pull request и обновляется
+сам, так что вы появляетесь там, не спрашивая. В нём также названы вклады, которые есть в
+`main`, но GitHub показывает как закрытые, а не слитые, потому что записать это было нашей ошибкой,
+а не их — объяснять.
 
 <a href="./CONTRIBUTORS.md">
-  <img src="https://contrib.rocks/image?repo=chaitanyagiri/munder-difflin" alt="Munder Difflin contributors">
+  <img src="https://contrib.rocks/image?repo=chaitanyagiri/munder-difflin" alt="Контрибьюторы Munder Difflin">
 </a>
 
-## Telemetry
+## Телеметрия
 
-Official builds send a **small set of anonymous usage events** (app opened, agent spawned, feature
-used) — never prompts, code, file paths, or agent output. The complete event list, the anonymity
-guarantees, and the three ways to opt out (Settings toggle, `DO_NOT_TRACK`, or building from
-source — forks compile with no key and send nothing) are documented in
+Официальные сборки отправляют **небольшой набор анонимных событий использования** (приложение открыто,
+агент запущен, функция использована) — никогда не промпты, код, пути к файлам или вывод агентов. Полный
+список событий, гарантии анонимности и три способа отказаться (переключатель в настройках, `DO_NOT_TRACK`
+или сборка из исходников — форки компилируются без ключа и ничего не отправляют) задокументированы в
 [`TELEMETRY.md`](./TELEMETRY.md).
 
-## License
+## Лицензия
 
 > [!IMPORTANT]
-> **Asset licensing.** The bundled pixel art (tilesets and maps) is **Modern Interiors - RPG Tileset
-> [16X16]** by [LimeZu](https://limezu.itch.io/moderninteriors), used under the **Complete Version
-> licence**, which permits editing and use in commercial and non-commercial projects. **Credit to
-> LimeZu is required by that licence** and must stay in place. The Office cast is not LimeZu art. It
-> is drawn procedurally in `portraitArt.ts`. See
+> **Лицензирование ресурсов.** Встроенный пиксель-арт (тайлсеты и карты) — это **Modern Interiors - RPG Tileset
+> [16X16]** от [LimeZu](https://limezu.itch.io/moderninteriors), используемый по **лицензии Complete Version**,
+> которая разрешает редактирование и использование в коммерческих и некоммерческих проектах. **Указание
+> авторства LimeZu требуется этой лицензией** и должно оставаться на месте. Состав Office — не арт LimeZu. Он
+> нарисован процедурно в `portraitArt.ts`. Смотрите
 > [`src/renderer/src/assets/ATTRIBUTION.md`](./src/renderer/src/assets/ATTRIBUTION.md).
 
-The **source code** is licensed under the **MIT License** — see [`LICENSE`](./LICENSE). The MIT grant
-covers the code only; the bundled pixel art is licensed separately from LimeZu and is carved out in
-[`LICENSE-ASSETS`](./LICENSE-ASSETS). *Munder Difflin* is an affectionate parody and is not affiliated with NBC's *The Office* or
+**Исходный код** лицензирован по **лицензии MIT** — смотрите [`LICENSE`](./LICENSE). Грант MIT
+распространяется только на код; встроенный пиксель-арт лицензирован отдельно от LimeZu и выделен в
+[`LICENSE-ASSETS`](./LICENSE-ASSETS). *Munder Difflin* — это любовная пародия и не связан с NBC *The Office* или
 Dunder Mifflin.
 
-## Acknowledgements
+## Благодарности
 
-- [LimeZu](https://limezu.itch.io/) for the *Modern Interiors* pixel-art tilesets (Complete Version licence).
-- [`shahar061/the-office`](https://github.com/shahar061/the-office) for the office tileset/map vendoring.
-- [Pixi.js](https://pixijs.com/) · [xterm.js](https://xtermjs.org/) · [node-pty](https://github.com/microsoft/node-pty) · [electron-vite](https://electron-vite.org/) · [CodeMirror](https://codemirror.net/) for the libraries this is built on.
-- [Remotion](https://www.remotion.dev/) for the landing page's animated "how it works" clips (`landing-remotion/`).
-- *The Office* (US) for Munder Difflin, Inc.
+- [LimeZu](https://limezu.itch.io/) за пиксель-арт тайлсеты *Modern Interiors* (лицензия Complete Version).
+- [`shahar061/the-office`](https://github.com/shahar061/the-office) за вендоринг офисного тайлсета/карты.
+- [Pixi.js](https://pixijs.com/) · [xterm.js](https://xtermjs.org/) · [node-pty](https://github.com/microsoft/node-pty) · [electron-vite](https://electron-vite.org/) · [CodeMirror](https://codemirror.net/) за библиотеки, на которых это построено.
+- [Remotion](https://www.remotion.dev/) за анимированные клипы «как это работает» на лендинге (`landing-remotion/`).
+- *The Office* (US) за Munder Difflin, Inc.
